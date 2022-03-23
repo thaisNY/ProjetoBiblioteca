@@ -11,7 +11,7 @@ public class Book { // Class
     public Book(String Name, String NameAutor, int ReleaseYear, boolean Borrowed, String DevolutionDate){ // Method
         this.Name = Name;
         this.NameAuthor = NameAuthor;
-        this.ReleaseYear = ReleaseYear
+        this.ReleaseYear = ReleaseYear;
         this.Borrowed = Borrowed;
         this.DevolutionDate = DevolutionDate;
     }
@@ -22,11 +22,11 @@ public class Book { // Class
     public void setName(String Name){
         this.Name = Name;
     }
-    public String getNameAutor(){
-        return NameAutor;
+    public String getNameAuthor(){
+        return NameAuthor;
     }
-    public void setNameAutor(String NameAutor){
-        this.NameAutor = NameAutor;
+    public void setNameAuthor(String NameAuthor){
+        this.NameAuthor = NameAuthor;
     }
     public int getReleaseYear(){
         return ReleaseYear;

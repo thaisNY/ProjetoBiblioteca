@@ -4,7 +4,7 @@ import shelf.Book;
 //import java.Livro;
 
 
-public class Principal {
+public class main {
     public static void main(String[] args){
         Book livro1 = new Book("cenoura", "abacate", 42, true, "03-12-1932");//"Fundamentos da Matematica", "Pedro Apolioso", 1999, false, "01-06-2022");
         System.out.println(livro1.getName());
