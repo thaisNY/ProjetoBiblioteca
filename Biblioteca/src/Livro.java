@@ -1,50 +1,50 @@
-package example;
+package shelf;
 
-public class Livro { // Class
-    private String Nome;
-    private String NomeAutor;
-    private int AnoLancamento;
-    private boolean Emprestado;
-    private String DataDevolucao;
+public class Book { // Class
+    private String Name;
+    private String NameAuthor;
+    private int ReleaseYear;
+    private boolean Borrowed;
+    private String DevolutionDate;
 
 
-    public Livro(String Nome, String NomeAutor, int AnoLancamento, boolean Emprestado, String DataDevolucao){ // Method
-        this.Nome = Nome;
-        this.NomeAutor = NomeAutor;
-        this.AnoLancamento = AnoLancamento;
-        this.Emprestado = Emprestado;
-        this.DataDevolucao = DataDevolucao;
+    public Book(String Name, String NameAutor, int ReleaseYear, boolean Borrowed, String DevolutionDate){ // Method
+        this.Name = Name;
+        this.NameAuthor = NameAuthor;
+        this.ReleaseYear = ReleaseYear
+        this.Borrowed = Borrowed;
+        this.DevolutionDate = DevolutionDate;
     }
 
-    public String getNome(){
-        return Nome;
+    public String getName(){
+        return Name;
     }
-    public void setNome(String Nome){
-        this.Nome = Nome;
+    public void setName(String Name){
+        this.Name = Name;
     }
-    public String getNomeAutor(){
-        return NomeAutor;
+    public String getNameAutor(){
+        return NameAutor;
     }
-    public void setNomeAutor(String NomeAutor){
-        this.NomeAutor = NomeAutor;
+    public void setNameAutor(String NameAutor){
+        this.NameAutor = NameAutor;
     }
-    public int getAnoLancamento(){
-        return AnoLancamento;
+    public int getReleaseYear(){
+        return ReleaseYear;
     }
-    public void setNome(int AnoLancamento){
-        this.AnoLancamento = AnoLancamento;
+    public void setName(int ReleaseYear){
+        this.ReleaseYear = ReleaseYear;
     }
-    public boolean Emprestado(){
-        return Emprestado;
+    public boolean Borrowed(){
+        return Borrowed;
     }
-    public void setEmprestado(boolean Emprestado){
-        this. Emprestado =  Emprestado;
+    public void setBorrowed(boolean Borrowed){
+        this. Borrowed =  Borrowed;
     }
-    public String DataDevolucao(){
-        return DataDevolucao;
+    public String DevolutionDate(){
+        return DevolutionDate;
     }
-    public void setDataDevolucao(String DataDevolucao){
-        this.DataDevolucao = DataDevolucao;
+    public void setDevolutionDate(String DevolutionDate){
+        this.DevolutionDate = DevolutionDate;
     }
 
 }
