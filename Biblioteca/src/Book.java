@@ -1,4 +1,4 @@
-package shelf;
+package library;
 
 public class Book { // Class
     private String Name;
