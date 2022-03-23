@@ -1,5 +1,6 @@
-package Biblioteca;
-public class Livro {
+package example;
+
+public class Livro { // Class
     private String Nome;
     private String NomeAutor;
     private int AnoLancamento;
@@ -7,10 +8,7 @@ public class Livro {
     private String DataDevolucao;
 
 
-    public Livro(){
-    }
-
-    public Livro(String Nome, String NomeAutor, int AnoLancamento, boolean Emprestado, String DataDevolucao){
+    public Livro(String Nome, String NomeAutor, int AnoLancamento, boolean Emprestado, String DataDevolucao){ // Method
         this.Nome = Nome;
         this.NomeAutor = NomeAutor;
         this.AnoLancamento = AnoLancamento;
