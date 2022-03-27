@@ -1,4 +1,4 @@
-package Biblioteca;
+package library;
 public class Cliente {
 
     private String Nome;

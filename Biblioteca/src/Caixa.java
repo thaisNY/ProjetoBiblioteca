@@ -1,4 +1,4 @@
-package Biblioteca;
+package library;
 public class Caixa {
     private int Entrada;
     private int Saida;
