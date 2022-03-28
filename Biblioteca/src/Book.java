@@ -1,6 +1,6 @@
 package library;
 
-public class Book { // Class
+public class book { // Class
     private String Name;
     private String NameAuthor;
     private int ReleaseYear;
