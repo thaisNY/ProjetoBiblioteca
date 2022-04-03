@@ -4,9 +4,6 @@ public class Funcionario {
     private int Cpf;
     private int CarteiraTrabalho;
 
-    public Funcionario() {
-    }
-
     public Funcionario(String Nome, int Cpf, int CarteiraTrabalho) {
         this.Nome = Nome;
         this.Cpf = Cpf;
