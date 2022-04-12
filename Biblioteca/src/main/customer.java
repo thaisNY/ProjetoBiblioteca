@@ -3,13 +3,14 @@ public class customer {
 
     private String name;
     private int cpf;
-    private int registration;
+    private int registration; //carteira de trabalho
     private int booksWithStudent;
 
-    public Customer() {
+    public customer() {
+
     }
 
-    public Customer(String name, int cpf, int registration, int booksWithStudent) {
+    public customer(String name, int cpf, int registration, int booksWithStudent) {
         this.name = name;
         this.cpf = cpf;
         this.registration = registration;
@@ -21,16 +22,16 @@ public class customer {
     public void set_name(String name){
         this.name = name;
    }
-    public int get_Cpf(){
+    public int get_cpf(){
         return cpf;
     }
     public void set_name(int cpf){
         this.cpf = cpf;
     }
-    public int get_Registration(){
+    public int get_registration(){
         return registration;
     }
-    public void set_Registration(int registration){
+    public void set_registration(int registration){
         this.registration = registration;
     }
     public int get_booksWithStudent(){
