@@ -1,31 +1,38 @@
 package library;
+//import java.util.ArrayList;
 
-public class Book { // Class
+
+
+public class book { // Class
     private String Name;
     private String NameAuthor;
     private int ReleaseYear;
     private boolean Borrowed;
     private String DevolutionDate;
+    private double Price;
+    //ArrayList<Paciente> meusPacientes = new ArrayList<Paciente>();
+    //ArrayList<Book> Shelf = new ArrayList<Book>();
 
 
-    public Book(String Name, String NameAutor, int ReleaseYear, boolean Borrowed, String DevolutionDate){ // Method
+    public book(String Name, String NameAutor, int ReleaseYear, boolean Borrowed, String DevolutionDate, double Price){ // Method
         this.Name = Name;
         this.NameAuthor = NameAuthor;
         this.ReleaseYear = ReleaseYear;
         this.Borrowed = Borrowed;
         this.DevolutionDate = DevolutionDate;
+        this.Price = Price;
     }
 
-    public String getName(){
+    public String get_name(){
         return Name;
     }
     public void setName(String Name){
         this.Name = Name;
     }
-    public String getNameAuthor(){
+    public String get_nameAuthor(){
         return NameAuthor;
     }
-    public void setNameAuthor(String NameAuthor){
+    public void set_NameAuthor(String NameAuthor){
         this.NameAuthor = NameAuthor;
     }
     public int getReleaseYear(){
@@ -45,6 +52,15 @@ public class Book { // Class
     }
     public void setDevolutionDate(String DevolutionDate){
         this.DevolutionDate = DevolutionDate;
+    }
+
+    public double Price(){
+        return Price;
+    }
+
+    public void setPrice(double Price){
+        this.Price = Price;
+
     }
 
 }
