@@ -1,4 +1,7 @@
 package library;
+//import java.util.ArrayList;
+
+
 
 public class book { // Class
     private String Name;
@@ -7,6 +10,8 @@ public class book { // Class
     private boolean Borrowed;
     private String DevolutionDate;
     private double Price;
+    //ArrayList<Paciente> meusPacientes = new ArrayList<Paciente>();
+    //ArrayList<Book> Shelf = new ArrayList<Book>();
 
 
     public book(String Name, String NameAutor, int ReleaseYear, boolean Borrowed, String DevolutionDate, double Price){ // Method
