@@ -17,7 +17,7 @@ public class main {
         customer client1 = new customer("Jose", 13232, 2344, 1);
         cashier caixa1 = new cashier(livro1.Price(), 0.20);
         System.out.println("\n======================");
-		System.out.println("Livro: " + livro1.getName() + "\n" + "Autor do livro: " + livro1.getNameAuthor() + "  " + "Ano de lancamento: " + livro1.getReleaseYear() + "  " + "Emprestado: " + livro1.Borrowed() + "   " + "Data de devolucao: " + livro1.DevolutionDate() + "  " + "Preco: " + livro1.Price() + "R$" + "\n");
+		System.out.println("Livro: " + livro1.getName() + "\n" + "Autor do livro: " + livro1.getNameAuthor() + "  " + "Ano de lancamento: " + livro1.getReleaseYear() + "  " + "Emprestado: " + livro1.isBookBorrowed() + "   " + "Data de devolucao: " + livro1.DevolutionDate() + "  " + "Preco: " + livro1.Price() + "R$" + "\n");
         System.out.println("Funcionario: " + func1.getEmployeeName() + "\n" + "Carteira de Trabalho: " + func1.getCtps() + "  " + "CPF: " + func1.getCpf() + "\n");
         System.out.println("Cliente: " + client1.getCustomerName() + "\n" + "CPF: " + client1.getCpf() + "  " + "Matricula: " + client1.getRegistration() + "  " + "Numero de livros: " + client1.getBorrowedByStudent());
         System.out.println("Caixa: 1" + "\n" + "Entrada: " + caixa1.getInput() + "  " + "Saida: "  + caixa1.setOutput());
@@ -35,13 +35,12 @@ public class main {
 
         prat1.add(livro2);
 		prat1.add(livro3);
-        /*
         prat1.booksInShelf();
         prat1.remove(livro1);
 		prat1.sizeOfShelf();
 		prat1.booksInShelf();
         prat1.search(livro2);
-        */
+
 
 
         prat1.testBookMethod(livro2);

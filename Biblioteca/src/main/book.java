@@ -7,7 +7,7 @@ public class book { // Class
     private String Name;
     private String NameAuthor;
     private int ReleaseYear;
-    private boolean Borrowed;
+    private boolean isBookBorrowed;
     private String DevolutionDate;
     private double Price;
     //ArrayList<Paciente> meusPacientes = new ArrayList<Paciente>();
@@ -18,7 +18,7 @@ public class book { // Class
         this.Name = Name;
         this.NameAuthor = NameAuthor;
         this.ReleaseYear = ReleaseYear;
-        this.Borrowed = Borrowed;
+        this.isBookBorrowed = isBookBorrowed;
         this.DevolutionDate = DevolutionDate;
         this.Price = Price;
     }
@@ -32,20 +32,20 @@ public class book { // Class
     public String getNameAuthor(){
         return NameAuthor;
     }
-    public void set_NameAuthor(String NameAuthor){
+    public void setNameAuthor(String NameAuthor){
         this.NameAuthor = NameAuthor;
     }
     public int getReleaseYear(){
         return ReleaseYear;
     }
-    public void setName(int ReleaseYear){
+    public void setReleaseYear(int ReleaseYear){
         this.ReleaseYear = ReleaseYear;
     }
-    public boolean Borrowed(){
-        return Borrowed;
+    public boolean isBookBorrowed(){
+        return isBookBorrowed;
     }
-    public void setBorrowed(boolean Borrowed){
-        this. Borrowed =  Borrowed;
+    public void setIsBookBorrowed(boolean setandoBorrowed){
+        this.isBookBorrowed =  setandoBorrowed;
     }
     public String DevolutionDate(){
         return DevolutionDate;
