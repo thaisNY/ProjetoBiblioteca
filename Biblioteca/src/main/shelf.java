@@ -18,7 +18,7 @@ public class shelf {
     public void booksInShelf() {
         System.out.println("Current books in shelf:\n");
 		for (int i = 0; i < Shelf.size(); i++) {
-			System.out.println("|==> " + Shelf.get(i).get_name());
+			System.out.println("|==> " + Shelf.get(i).getName());
 			//NOTE: without book method, it prints package.class@memory_address[?]
             }
 		System.out.println("\n");
@@ -43,12 +43,12 @@ public class shelf {
 	public void search(book z) {
 		int bar = Shelf.indexOf(z);
 
-        System.out.println("Book [" + Shelf.get(bar).get_name() + "]" + " found at index " + Integer.toString(bar) + " in Shelf.");
+        System.out.println("Book [" + Shelf.get(bar).getName() + "]" + " found at index " + Integer.toString(bar) + " in Shelf.");
 		//Shelf.indexOf(z);
 	}
 
     public void testBookMethod(book w) {
-        Shelf.get(Integer.toString(Shelf.indexOf(w)).get_nameAuthor());
+        //Shelf.get(Integer.toString(Shelf.indexOf(w)).getNameAuthor());
     }
 }
 

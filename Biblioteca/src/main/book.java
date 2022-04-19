@@ -14,7 +14,7 @@ public class book { // Class
     //ArrayList<Book> Shelf = new ArrayList<Book>();
 
 
-    public book(String Name, String NameAutor, int ReleaseYear, boolean Borrowed, String DevolutionDate, double Price){ // Method
+    public book(String Name, String NameAuthor, int ReleaseYear, boolean Borrowed, String DevolutionDate, double Price){ // Method
         this.Name = Name;
         this.NameAuthor = NameAuthor;
         this.ReleaseYear = ReleaseYear;
@@ -23,13 +23,13 @@ public class book { // Class
         this.Price = Price;
     }
 
-    public String get_name(){
+    public String getName(){
         return Name;
     }
     public void setName(String Name){
         this.Name = Name;
     }
-    public String get_nameAuthor(){
+    public String getNameAuthor(){
         return NameAuthor;
     }
     public void set_NameAuthor(String NameAuthor){

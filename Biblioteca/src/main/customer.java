@@ -4,41 +4,43 @@ public class customer {
     private String name;
     private int cpf;
     private int registration; //carteira de trabalho
-    private int booksWithStudent;
+    private int borrowedByStudent;
 
     public customer() {
 
     }
 
-    public customer(String name, int cpf, int registration, int booksWithStudent) {
+    public customer(String name, int cpf, int registration, int BorrowedByStudent) {
         this.name = name;
         this.cpf = cpf;
         this.registration = registration;
-        this.booksWithStudent = booksWithStudent;
+        this.borrowedByStudent = borrowedByStudent;
     }
-    public String get_name(){
+    public String getCustomerName(){
         return name;
     }
-    public void set_name(String name){
+    public void setCustomerName(String name){
         this.name = name;
    }
-    public int get_cpf(){
+    public int getCpf(){
         return cpf;
     }
-    public void set_name(int cpf){
+    public void setCpf(int cpf){
         this.cpf = cpf;
     }
-    public int get_registration(){
+    public int getRegistration(){
         return registration;
     }
-    public void set_registration(int registration){
+    public void setRegistration(int registration){
         this.registration = registration;
     }
-    public int get_booksWithStudent(){
-        return booksWithStudent;
+
+    //Borrowed books with students
+    public int getBorrowedByStudent(){
+        return borrowedByStudent;
     }
-    public void set_booksWithStudent(int booksWithStudent){
-        this.booksWithStudent = booksWithStudent;
+    public void setBorrowedByStudent(int borrowedByStudent){
+        this.borrowedByStudent = borrowedByStudent;
     }
 
 }

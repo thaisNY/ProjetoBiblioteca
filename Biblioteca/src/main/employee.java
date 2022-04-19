@@ -14,22 +14,22 @@ public class employee {
         this.ctps = ctps;
     }
 
-    public String get_name(){
+    public String getEmployeeName(){
         return name;
     }
     public void set_name(String name){
         this.name = name;
     }
-    public int get_cpf(){
+    public int getCpf(){
         return cpf;
     }
-    public void set_name(int cpf){
+    public void setName(int cpf){
         this.cpf = cpf;
     }
     public int getCtps(){
         return ctps;
     }
-    public void setctps(int ctps){
+    public void setCtps(int ctps){
         this.ctps = ctps;
     }
 }
