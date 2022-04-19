@@ -1,5 +1,5 @@
 package library;
-public class Cliente {
+public class Cliente {//Fiz algumas alterações
 
     private String Nome;
     private int Cpf;
@@ -24,7 +24,7 @@ public class Cliente {
     public int getCpf(){
         return Cpf;
     }
-    public void setNome(int Cpf){
+    public void setCpf(int Cpf){//Modifiquei aqui, tava setNome, mas como ja tinha setNome acredito que o certo era desse jeito que coloquei
         this.Cpf = Cpf;
     }
     public int getMatricula(){
